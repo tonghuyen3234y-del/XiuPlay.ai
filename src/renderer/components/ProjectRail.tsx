@@ -199,7 +199,7 @@ export function ProjectRail({
           </button>
         </div>
 
-        <nav className="rail-primary-navigation" aria-label="Noobi 导航">
+        <nav className="rail-primary-navigation" aria-label="XiuPlay 导航">
           <button className={variant === 'dashboard' ? 'is-active' : ''} type="button" onClick={onHome}>
             <Home size={17} />
             <span>首页</span>

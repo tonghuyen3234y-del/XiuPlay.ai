@@ -106,7 +106,7 @@ const SECTIONS = [
   { id: 'environment', label: '环境管理', detail: 'Node、Codex、Godot', icon: Cpu },
   { id: 'media', label: '媒体 API', detail: '图像、音频、3D', icon: Boxes },
   { id: 'defaults', label: '项目默认值', detail: '目录、模型、推理', icon: Settings2 },
-  { id: 'noobi', label: 'Noobi 工坊', detail: '伙伴形象与场景', icon: Palette },
+  { id: 'noobi', label: 'XiuPlay 工坊', detail: '伙伴形象与场景', icon: Palette },
   { id: 'skills', label: 'Skills', detail: 'Agent 专业能力', icon: FileCode2 },
   { id: 'mcp', label: 'MCP Servers', detail: '工具与数据连接', icon: Cable },
   { id: 'prompts', label: '提示词', detail: '分角色模板', icon: FileText },
@@ -378,7 +378,7 @@ export function SettingsModal({
               <SettingsHeading
                 eyebrow="NOOBI WORKSHOP"
                 title="选择默认搭档与工作场景"
-                description="默认先由一位 Noobi 在一个单人工作室中陪你制作；多人编队与多人场景放在下方，按需启用。"
+                description="默认先由一位 XiuPlay 在一个单人工作室中陪你制作；多人编队与多人场景放在下方，按需启用。"
               />
 
               <section
@@ -402,7 +402,7 @@ export function SettingsModal({
                     <div>
                       <small>SOLO PARTNER</small>
                       <strong id="noobi-character-step-title">先选择一位默认角色</strong>
-                      <p>这位 Noobi 会独自出现在制作预览里，并跟随 Agent 的阶段行动。</p>
+                      <p>这位 XiuPlay 会独自出现在制作预览里，并跟随 Agent 的阶段行动。</p>
                     </div>
                   </header>
                   <NoobiPackPicker

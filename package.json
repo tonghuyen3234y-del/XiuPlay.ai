@@ -5,13 +5,13 @@
   "type": "module",
   "description": "Local-first desktop agent that turns a prompt into a reviewed, playable Web or Godot game with Codex App Server",
   "author": "Noobi.ai",
-  "homepage": "https://github.com/Innate-Labs/Noobi.ai#readme",
+  "homepage": "https://github.com/tonghuyen3234y-del/XiuPlay.ai#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Innate-Labs/Noobi.ai.git"
+    "url": "git+https://github.com/tonghuyen3234y-del/XiuPlay.ai.git"
   },
   "bugs": {
-    "url": "https://github.com/Innate-Labs/Noobi.ai/issues"
+    "url": "https://github.com/tonghuyen3234y-del/XiuPlay.ai/issues"
   },
   "keywords": [
     "codex",

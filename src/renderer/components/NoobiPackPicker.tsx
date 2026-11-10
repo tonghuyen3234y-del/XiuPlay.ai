@@ -30,7 +30,7 @@ export const NOOBI_PACK_OPTIONS: readonly NoobiPackOption[] = [
     id: 'classic',
     name: '经典工坊',
     eyebrow: 'CLASSIC STUDIO',
-    description: '暖木工作室与原版 Noobi，适合大多数游戏制作任务。',
+    description: '暖木工作室与原版 XiuPlay，适合大多数游戏制作任务。',
     avatarLabel: '经典制作人',
     avatarDescription: '热情、可靠的全能制作伙伴，适合陪你完成第一款游戏。',
     sceneDescription: '暖木色像素工作室，包含需求桌、装配台与试玩区。',
@@ -41,7 +41,7 @@ export const NOOBI_PACK_OPTIONS: readonly NoobiPackOption[] = [
     id: 'mosslight',
     name: '苔光工坊',
     eyebrow: 'MOSSLIGHT ATELIER',
-    description: '植物、琥珀灯与游侠 Noobi，适合自然和冒险题材。',
+    description: '植物、琥珀灯与游侠 XiuPlay，适合自然和冒险题材。',
     avatarLabel: '苔光游侠',
     avatarDescription: '安静敏锐的自然系伙伴，擅长探索、地图与冒险题材。',
     sceneDescription: '被植物与琥珀灯包围的苔光工作室，气氛安静而专注。',
@@ -52,7 +52,7 @@ export const NOOBI_PACK_OPTIONS: readonly NoobiPackOption[] = [
     id: 'starforge',
     name: '星铸工坊',
     eyebrow: 'STARFORGE LAB',
-    description: '星舰机械间与工程师 Noobi，适合科幻和 3D 项目。',
+    description: '星舰机械间与工程师 XiuPlay，适合科幻和 3D 项目。',
     avatarLabel: '星铸工程师',
     avatarDescription: '喜欢机械与调试的工程伙伴，适合科幻、系统和 3D 项目。',
     sceneDescription: '蓝色晶体与机械终端构成的星铸实验室，科技感更强。',
@@ -124,7 +124,7 @@ export function NoobiPackPicker({
     return (
       <label
         className={`noobi-pack-compact is-${resolvedValue}${value === null ? ' is-inherited' : ''}`}
-        title={disabled ? 'Agent 运行期间不能切换制作场景' : '选择这个项目的 Noobi 形象与制作场景'}
+        title={disabled ? 'Agent 运行期间不能切换制作场景' : '选择这个项目的 XiuPlay 形象与制作场景'}
       >
         <span
           className="noobi-pack-compact-swatch"
@@ -138,7 +138,7 @@ export function NoobiPackPicker({
           <strong>{busy ? '保存中…' : noobiPackLabel(resolvedValue)}</strong>
         </span>
         <select
-          aria-label="项目 Noobi 形象与制作场景"
+          aria-label="项目 XiuPlay 形象与制作场景"
           value={value ?? 'inherit'}
           disabled={disabled || busy}
           onChange={(event) => {
@@ -197,8 +197,8 @@ export function NoobiPackPicker({
       className={`noobi-pack-picker mode-${mode} presentation-${presentation}`}
       role="radiogroup"
       aria-label={presentation === 'character'
-        ? '选择默认 Noobi 角色'
-        : mode === 'global' ? '默认 Noobi 形象与制作场景' : '项目 Noobi 形象与制作场景'}
+        ? '选择默认 XiuPlay 角色'
+        : mode === 'global' ? '默认 XiuPlay 形象与制作场景' : '项目 XiuPlay 形象与制作场景'}
       aria-busy={busy}
     >
       {options.map((option, index) => {

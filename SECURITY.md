@@ -10,7 +10,7 @@ Please do not disclose a suspected vulnerability in a public issue, discussion o
 
 Use GitHub's private vulnerability reporting flow:
 
-<https://github.com/Innate-Labs/Noobi.ai/security/advisories/new>
+<https://github.com/tonghuyen3234y-del/XiuPlay.ai/security/advisories/new>
 
 Include, when available:
 

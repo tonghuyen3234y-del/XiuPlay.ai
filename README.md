@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tonghuyen3234y-del/Noobi.ai/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tonghuyen3234y-del/Noobi.ai?style=flat"></a>
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tonghuyen3234y-del/Noobi.ai?style=flat"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tonghuyen3234y-del/XiuPlay.ai/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tonghuyen3234y-del/XiuPlay.ai?style=flat"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tonghuyen3234y-del/XiuPlay.ai?style=flat"></a>
   <img alt="Platform: macOS" src="https://img.shields.io/badge/platform-macOS-11120f">
   <img alt="Developer preview" src="https://img.shields.io/badge/status-developer%20preview-E9A93A">
 </p>
@@ -24,11 +24,11 @@
   <a href="README.zh-CN.md"><strong>简体中文</strong></a>
 </p>
 
-![XiuPlay.ai home screen with the lavender pixel-cloud hero, idea composer and project rail](docs/images/xiuplay-home-hero.png)
+![XiuPlay.ai 桌面界面：左侧项目栏列出 MY GAMES，右侧淡紫像素云海首页包含创意输入框、模型选择、游戏类型快捷标签与底部 Codex 运行状态栏](docs/images/xiuplay-home-hero.png)
 
 XiuPlay.ai gives Codex a bounded game-production loop instead of asking one agent to improvise everything in a single pass. A read-only Planner scopes the work, an Implementer builds inside an isolated project directory, an independent Reviewer checks the result, and the host builds and plays the production output before completion. Failed review, build or playtest checks return to the same Implementer for up to three repair rounds.
 
-> **Current status:** this fork ships the desktop app as **XiuPlay.ai**. Download the [macOS Apple silicon preview](https://github.com/tonghuyen3234y-del/Noobi.ai/releases/tag/v0.1.0-preview.20261109) or run from source. The preview is unsigned and not notarized. Generated games remain standalone local Web or Godot 4 projects.
+> **Current status:** this fork ships the desktop app as **XiuPlay.ai**. Download the [macOS Apple silicon preview](https://github.com/tonghuyen3234y-del/XiuPlay.ai/releases/tag/v0.1.0-preview.20261109) or run from source. The preview is unsigned and not notarized. Generated games remain standalone local Web or Godot 4 projects.
 
 ## Preview update — 2026-11-09
 
@@ -64,7 +64,7 @@ This fork builds on [Innate-Labs/Noobi.ai](https://github.com/Innate-Labs/Noobi.
 - Godot 4 with exactly matching Web export templates, only when the Agent selects Godot
 
 ```bash
-git clone https://github.com/tonghuyen3234y-del/Noobi.ai.git
+git clone https://github.com/tonghuyen3234y-del/XiuPlay.ai.git
 cd XiuPlay.ai
 npm ci
 npm run dev

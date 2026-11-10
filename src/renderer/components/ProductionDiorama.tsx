@@ -126,7 +126,7 @@ export function ProductionDiorama({
       data-crew-size={crew.length}
       data-crew-packs={runtimeConfiguredCrew?.map((member) => `${member.role}:${member.packId}`).join(',') ?? packId}
       data-scene-mode={bakedRuntimeScene ? 'fishing' : collaborativeRuntime ? 'collaboration' : 'solo'}
-      aria-label={collaborativeRuntime ? 'Noobi 多人像素制作场景' : 'Noobi 单人像素制作场景'}
+      aria-label={collaborativeRuntime ? 'XiuPlay 多人像素制作场景' : 'XiuPlay 单人像素制作场景'}
     >
       <div className="workshop-map" aria-hidden="true">
         <img src={sceneImage} alt="" draggable={false} />
@@ -361,7 +361,7 @@ export function configuredProductionCrewMembers(
     : member);
 }
 
-export type NoobiGroundShadowProfile = 'standing' | 'walking' | 'sleeping';
+export type XiuPlayGroundShadowProfile = 'standing' | 'walking' | 'sleeping';
 
 /**
  * Keeps the contact shadow tied to locomotion instead of individual sprite crops.
@@ -370,7 +370,7 @@ export type NoobiGroundShadowProfile = 'standing' | 'walking' | 'sleeping';
 export function noobiGroundShadowProfile(
   pose: ProductionAssistantMotionState['action']['pose'],
   phase: ProductionAssistantMotionState['phase'],
-): NoobiGroundShadowProfile {
+): XiuPlayGroundShadowProfile {
   if (pose === 'sleep') return 'sleeping';
   if (pose === 'walk' || phase === 'walking') return 'walking';
   return 'standing';

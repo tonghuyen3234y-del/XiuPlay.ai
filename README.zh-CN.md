@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tonghuyen3234y-del/Noobi.ai/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tonghuyen3234y-del/Noobi.ai?style=flat"></a>
-  <a href="https://github.com/tonghuyen3234y-del/Noobi.ai/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tonghuyen3234y-del/Noobi.ai?style=flat"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tonghuyen3234y-del/XiuPlay.ai/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tonghuyen3234y-del/XiuPlay.ai?style=flat"></a>
+  <a href="https://github.com/tonghuyen3234y-del/XiuPlay.ai/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tonghuyen3234y-del/XiuPlay.ai?style=flat"></a>
   <img alt="平台：macOS" src="https://img.shields.io/badge/platform-macOS-11120f">
   <img alt="开发者预览版" src="https://img.shields.io/badge/status-developer%20preview-E9A93A">
 </p>
@@ -24,11 +24,11 @@
   <a href="README.md"><strong>English</strong></a>
 </p>
 
-![XiuPlay.ai 首页：淡紫像素云海背景、创意输入区与项目侧栏](docs/images/xiuplay-home-hero.png)
+![XiuPlay.ai 桌面界面：左侧项目栏列出 MY GAMES，右侧淡紫像素云海首页包含创意输入框、模型选择、游戏类型快捷标签与底部 Codex 运行状态栏](docs/images/xiuplay-home-hero.png)
 
 XiuPlay.ai 不让单个 Agent 在一次回合里即兴完成所有工作，而是把 Codex 放进一条有边界的游戏制作循环：只读 Planner 拆解任务，Implementer 在独立工程目录中实现，独立 Reviewer 检查真实结果，宿主再正式构建并自动试玩。审查、构建或体验评测未通过时，会交回同一个 Implementer，最多连续修复三轮。
 
-> **当前状态：** 本分支的桌面应用名为 **XiuPlay.ai**，提供 [macOS Apple 芯片预览安装包](https://github.com/tonghuyen3234y-del/Noobi.ai/releases/tag/v0.1.0-preview.20261109)，也可从源码运行。安装包尚未签名、公证；生成结果是独立的本地 Web 或 Godot 4 游戏工程。
+> **当前状态：** 本分支的桌面应用名为 **XiuPlay.ai**，提供 [macOS Apple 芯片预览安装包](https://github.com/tonghuyen3234y-del/XiuPlay.ai/releases/tag/v0.1.0-preview.20261109)，也可从源码运行。安装包尚未签名、公证；生成结果是独立的本地 Web 或 Godot 4 游戏工程。
 
 ## 2026-11-09 预览版更新
 
@@ -62,7 +62,7 @@ XiuPlay.ai 不让单个 Agent 在一次回合里即兴完成所有工作，而�
 - 只有 Agent 判断需要 Godot 时，才要求 Godot 4 与版本精确匹配的 Web Export Templates
 
 ```bash
-git clone https://github.com/tonghuyen3234y-del/Noobi.ai.git
+git clone https://github.com/tonghuyen3234y-del/XiuPlay.ai.git
 cd XiuPlay.ai
 npm ci
 npm run dev

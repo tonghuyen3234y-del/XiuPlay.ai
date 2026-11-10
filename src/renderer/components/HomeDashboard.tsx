@@ -272,7 +272,7 @@ export function HomeDashboard({
               <i /> {runtimeReady ? 'LOOP MODE 已就绪' : '完成运行时设置后开始'} <ArrowRight size={13} />
             </span>
             <h1 id="home-title">今天想做什么游戏，{accountName}？</h1>
-            <p>描述玩法、美术和你最在意的体验。Noobi 会持续制作、试玩、评测和修复，直到得到可交付成品。</p>
+            <p>描述玩法、美术和你最在意的体验。XiuPlay 会持续制作、试玩、评测和修复，直到得到可交付成品。</p>
 
             <div
               className={`home-prompt-card${dragActive ? ' is-dragging' : ''}`}
@@ -455,7 +455,7 @@ export function HomeDashboard({
             <div className="home-project-empty">
               <Sparkles size={20} />
               <strong>第一个游戏会出现在这里</strong>
-              <span>从上面的一句话开始，Noobi 会建立完整工程。</span>
+              <span>从上面的一句话开始，XiuPlay 会建立完整工程。</span>
             </div>
           )}
         </section>

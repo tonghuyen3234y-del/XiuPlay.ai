@@ -35,7 +35,7 @@ describe('NoobiPackPicker', () => {
       onChange: vi.fn(),
     }));
 
-    expect(markup).toContain('aria-label="选择默认 Noobi 角色"');
+    expect(markup).toContain('aria-label="选择默认 XiuPlay 角色"');
     expect(markup.match(/data-pack-kind="character"/gu)).toHaveLength(NOOBI_PACK_IDS.length);
     expect(markup.match(/aria-checked="true"/gu)).toHaveLength(1);
     expect(markup).toContain('小马宝莉·暮光闪闪');

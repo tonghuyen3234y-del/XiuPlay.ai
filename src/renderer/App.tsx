@@ -395,7 +395,7 @@ export function App() {
       await window.noobi.retryAssetPlan(selected.id, plan.id);
       setRefreshSignal((value) => value + 1);
       await runProject(
-        `重新生成并完整接入素材工单 ${plan.id}（${plan.kind} / ${plan.name}）。必须使用该 planId 调用对应的 Noobi 素材工具；生成成功后更新生产代码中的真实引用，运行构建和玩法验证，直到宿主验收通过。不要停留在占位或仅生成未接入状态。`,
+        `重新生成并完整接入素材工单 ${plan.id}（${plan.kind} / ${plan.name}）。必须使用该 planId 调用对应的 XiuPlay 素材工具；生成成功后更新生产代码中的真实引用，运行构建和玩法验证，直到宿主验收通过。不要停留在占位或仅生成未接入状态。`,
         selected.model ?? settings.defaultModel,
         settings.defaultEffort,
       );
@@ -553,7 +553,7 @@ export function App() {
           </button>
 
           <div className="topbar-project">
-            <strong>{selected?.name ?? 'Noobi Workspace'}</strong>
+            <strong>{selected?.name ?? 'XiuPlay Workspace'}</strong>
             {selected ? (
               <>
                 <span className={`engine-chip engine-${selected.engine}`}>

@@ -151,7 +151,7 @@ function NoobiScenePickerShell<Id extends string>({
     <section
       className={`noobi-scene-picker variant-${variant}`}
       data-scene-kind={variant}
-      aria-label={solo ? 'Noobi 单人工作室' : 'Noobi 多人运行背景'}
+      aria-label={solo ? 'XiuPlay 单人工作室' : 'XiuPlay 多人运行背景'}
       aria-busy={busy}
     >
       <header className="noobi-scene-heading">
