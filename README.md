@@ -24,7 +24,7 @@
   <a href="README.zh-CN.md"><strong>简体中文</strong></a>
 </p>
 
-![XiuPlay.ai 桌面界面：左侧项目栏列出 MY GAMES，右侧淡紫像素云海首页包含创意输入框、模型选择、游戏类型快捷标签与底部 Codex 运行状态栏](docs/images/xiuplay-home-hero.png)
+![XiuPlay.ai desktop app: a MY GAMES project rail on the left, and a lavender pixel-cloud home screen on the right with the idea composer, model picker, genre shortcuts and a Codex runtime status footer](docs/images/xiuplay-home-hero.png)
 
 XiuPlay.ai gives Codex a bounded game-production loop instead of asking one agent to improvise everything in a single pass. A read-only Planner scopes the work, an Implementer builds inside an isolated project directory, an independent Reviewer checks the result, and the host builds and plays the production output before completion. Failed review, build or playtest checks return to the same Implementer for up to three repair rounds.
 
